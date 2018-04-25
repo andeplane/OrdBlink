@@ -1,7 +1,9 @@
 import QtQuick 2.0
 
-Item {
+Rectangle {
+    color: "#714c8f"
     Text {
+        color: "white"
         text: "😀"
         fontSizeMode: Text.Fit
         font.pixelSize: 200

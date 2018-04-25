@@ -11,9 +11,11 @@ StackLayout {
         game.finished ? 1 : 0
     }
 
-    Item {
+    Rectangle {
         id: gamePage
+        color: "#714c8f"
         Text {
+            color: "white"
             text: game===null ? "" : game.currentWord
             fontSizeMode: Text.Fit
             font.pixelSize: 72
