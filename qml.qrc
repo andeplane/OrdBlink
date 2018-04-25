@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>FrontPage.qml</file>
+        <file>GamePage.qml</file>
+        <file>FinishPage.qml</file>
+    </qresource>
+</RCC>
